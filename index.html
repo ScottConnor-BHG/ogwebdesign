@@ -14,23 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 	<script type="text/javascript">
-		$(document).ready(function(){
-			$(".press-release").each(function(){
 
-				if($(this).children("p").length > 1){
-					$('<div><a href="#readmore" class="readmore">Read More&hellip;</a></div>').appendTo($(this));
-
-					$(this).children("p").first().addClass('first-p');
-					$(this).children("p").not('.first-p').hide();
-					
-					$(this).find('.readmore').click(function(){
-						$(this).parent().siblings('p').not('.first-p').slideToggle(500);
-						return false;
-					});
-				}
-
-			});
-		});
 	</script>
 </head>
 <body>
@@ -48,10 +32,10 @@
 	        </div>
 	        <div class="collapse navbar-collapse">
 	          <ul class="nav navbar-nav nav-left">
-	            <li class="nav-link first"><a href="#solutions">Solutions</a></li>
-	            <li class="nav-link"><a href="#services" >Services</a></li>
+	            <li class="nav-link first"><a href="index.html">Home</a></li>
+	            <li class="nav-link"><a href="services.html" >Services</a></li>
 	            <li class="nav-link"><a href="blog.html">Blog</a></li>
-	            <li class="nav-link"><a href="#company">Company</a></li>
+	            <li class="nav-link"><a href="about.hmtl">Company</a></li>
 	          </ul>
 	          <ul class="nav navbar-nav navbar-right">
 	            <li><span class="contact-info-phone pull-right">Call Us Today <a href="#">(443) 846-5909</a></span></li>

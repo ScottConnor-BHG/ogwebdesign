@@ -62,3 +62,21 @@ $(document).ready(function() {
 
   });
 });
+
+$(document).ready(function(){
+  $(".press-release").each(function(){
+
+    if($(this).children("p").length > 1){
+      $('<div><a href="#readmore" class="readmore">Read More&hellip;</a></div>').appendTo($(this));
+
+      $(this).children("p").first().addClass('first-p');
+      $(this).children("p").not('.first-p').hide();
+      
+      $(this).find('.readmore').click(function(){
+        $(this).parent().siblings('p').not('.first-p').slideToggle(500);
+        return false;
+      });
+    }
+
+  });
+});
