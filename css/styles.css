@@ -1,0 +1,126 @@
+*{
+	font-family:"Times New Roman",Georgia,Serif;
+
+}
+/******************** header **************/
+.nav-left li{
+	border-right:1px solid gray;
+
+}
+.nav-left li:hover{
+	
+	border-bottom:thick solid orange;
+}
+.nav-left .active{
+	border-bottom:thick solid orange;
+}
+.nav-left .first{
+	border-left:1px solid gray;
+}
+.navbar{
+    background-image: -webkit-linear-gradient(left, rgba(30,30,30,0.4) 0%, rgba(30,30,30,0) 40px,  rgba(30,30,30,0) 60px, rgba(30,30,30,0.4) 100%), -webkit-linear-gradient(top, rgba(130,130,130,1) 0%, rgba(50,50,50,1) 30%, rgba(30,30,30,1) 60%);
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.9), inset 0 2px rgba(255,255,255,0.1), inset 0 -2px rgba(255,255,255,0.05), inset 2px 0 rgba(255,255,255,0.07), inset -2px 0 rgba(255,255,255,0.07);
+    line-height: 45px;
+    text-align: center;
+	border-radius:0px;
+}
+.contact-info-phone{
+	color:white;
+	padding-top: 10px;
+	margin-right:10%;
+	width:200px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+span.contact-info-phone{
+	color:orange;
+}
+.contact-info-phone a{
+	color:white;
+}
+.contact-info-phone a:hover{
+	text-decoration: none;
+}
+.logo{
+	margin-top:-2em;
+	width:100%;
+}
+/******************** sidebar **************/
+.previous-releases-individual ul{
+	list-style: none;
+	font-size:10px;
+}
+.previous-releases-individual ul li p{
+	margin-bottom: 0;
+}
+.previous-releases-individual ul li{
+	margin-bottom: 10px;
+}
+.previous-releases-individual ul li a{
+	color:orange;
+}
+time{
+	font-weight:bold;
+	color:gray;
+}
+section{
+	margin-bottom: 40px;
+}
+section ol li{
+	list-style: none;
+}
+section ul li{
+	list-style: none;
+}
+section a{
+	color:black;
+}
+section a:hover{
+	text-decoration: none;
+}
+.sidebar-module li{
+	margin-left:-3em;
+}
+.active{
+	color:orange;
+}
+/******************** main content **************/
+.blog-post p{
+	padding-bottom: 10px;
+}
+.press-release .readmore{
+	text-decoration: none;
+	color:orange;
+}
+.blog-post{
+	border-bottom:1px solid gray;
+}
+/******************** footer **************/
+.footer{
+	background-color:black;
+}
+.footer td a{
+	padding:10px;
+	color:white;
+}
+.footer h3{
+	color:white;
+}
+.footer .col-md-8 p{
+	max-width: 500px;
+}
+.footer p{
+	color:gray;
+}
+.footer .comment{
+	margin-left:15px;
+}
+.footer .label-padded{
+	padding-right:100px;
+}
+.footer label{
+
+	font-size: 10px;
+	text-align: left;
+	color:white;
+}
