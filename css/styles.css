@@ -22,6 +22,10 @@
     box-shadow: inset 0 0 0 1px rgba(0,0,0,0.9), inset 0 2px rgba(255,255,255,0.1), inset 0 -2px rgba(255,255,255,0.05), inset 2px 0 rgba(255,255,255,0.07), inset -2px 0 rgba(255,255,255,0.07);
     line-height: 45px;
     text-align: center;
+    /* border radius override*/
+    -webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
 
 }
 .navbar .navbar-inverse .container{
