@@ -1,4 +1,33 @@
 $(document).ready(function() {
+    //code for sticky nav
+    var stickyNavTop = $('.navbar').offset().top;  
+    var stickyNavTopSmall = $('#small-nav').offset().top; 
+    var stickyNav = function(){  
+    var scrollTop = $(window).scrollTop();  
+           
+    if (scrollTop > stickyNavTop) {   
+        $('.navbar').addClass('sticky');
+        $('.navbar').css('position','fixed');
+
+    } else {  
+        $('.navbar').removeClass('sticky');   
+        $('.navbar').css('position','relative');
+    }  
+    };
+      
+    stickyNav();  
+  
+      
+    $(window).scroll(function() {  
+        stickyNav();
+
+    });
+
+
+
+
+
+
     document.getElementById('error').style.display="none";
     document.getElementById('success').style.display="none";
     //perform click action on navbar to show chosen tab

@@ -4,7 +4,8 @@
 }
 /******************** header **************/
 .nav-left li{
-	border-right:1px solid gray;
+	//border-right:1px solid gray;
+	height: 55px;
 
 }
 .nav-left li:hover{
@@ -15,20 +16,29 @@
 	border-bottom:thick solid orange;
 }
 .nav-left .first{
-	border-left:1px solid gray;
+	//border-left:1px solid gray;
 }
 .navbar{
     //background-image: -webkit-linear-gradient(left, rgba(30,30,30,0.4) 0%, rgba(30,30,30,0) 40px,  rgba(30,30,30,0) 60px, rgba(30,30,30,0.4) 100%), -webkit-linear-gradient(top, rgba(130,130,130,1) 0%, rgba(50,50,50,1) 30%, rgba(30,30,30,1) 60%);
-    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.9), inset 0 2px rgba(255,255,255,0.1), inset 0 -2px rgba(255,255,255,0.05), inset 2px 0 rgba(255,255,255,0.07), inset -2px 0 rgba(255,255,255,0.07);
+    //box-shadow: inset 0 0 0 1px rgba(0,0,0,0.9), inset 0 2px rgba(255,255,255,0.1), inset 0 -2px rgba(255,255,255,0.05), inset 2px 0 rgba(255,255,255,0.07), inset -2px 0 rgba(255,255,255,0.07);
     line-height: 45px;
     text-align: center;
-
+    margin-bottom:0px !important;
     /* border radius override*/
     -webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
 	border-radius: 0px !important;
+	border:none !important;
 
 }
+.sticky {  
+    position: fixed;  
+    width: 100%;  
+    left: 0;  
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;  
+} 
 .navbar .navbar-inverse .container{
 	width:2000px;
 }
@@ -36,23 +46,77 @@
 .navbar .container{
 	width:100% !important;
 }
+.navbar-inverse {
+background-color: #585b57 !important;
+border-color: #585b57 !important;
+background: #585b57 !important;
+}
+.navbar-inverse .navbar-nav > li{
+	margin:0px 15px;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color:white !important;
+	font-size:18px;
+	text-transform: uppercase;
+	font-family: "futura-pt-1","futura-pt-2",sans-serif;
+
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color:orange !important;
+}
+ul.nav.navbar-nav.navbar-right > li{
+height: 55px;
+position: relative;
+top: -5px;
+width:60px;
+margin-right: 10px;
+text-transform: uppercase;
+font-family: "futura-pt-1","futura-pt-2",sans-serif;
+}
 .contact-info-phone{
+
 	color:white;
 	padding-top: 10px;
-	margin-right:10%;
-	width:200px;
+	//margin-right:10%;
+	width:140px;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
 span.contact-info-phone{
-	color:orange;
+	color:white;
+}
+span.contact-info-phone span{
+	margin-right:10px;
 }
 .contact-info-phone a{
+	font-family: "futura-pt-1","futura-pt-2",sans-serif;
 	color:white;
 }
 .contact-info-phone a:hover{
 	text-decoration: none;
+	color:orange;
 }
+.info-link{
+	font-family: "futura-pt-1","futura-pt-2",sans-serif;
+	color:white;
+	padding-top: 10px;
+	//margin-right:10%;
+	width:140px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.info-link a{
+	font-family: "futura-pt-1","futura-pt-2",sans-serif;
+	color:white;
+}
+.info-link a:hover{
+	text-decoration: none;
+	color:orange;
+}
+span.info-link span{
+	margin-right:10px;
+}
+
 .logo{
 	margin-top:-1.5em;
 	min-height: 120px;
@@ -62,7 +126,15 @@ span.contact-info-phone{
 	width:100%;
 }
 #content{
-	margin-top:260px;
+	//margin-top:260px;
+}
+
+/******************** header **************/
+#top-header{
+	height:180px;
+}
+body {
+background: url(http://subtlepatterns.com/patterns/sandpaper.png);
 }
 /******************** sidebar **************/
 .previous-releases-individual ul{
@@ -100,8 +172,9 @@ section a:hover{
 .sidebar-module li{
 	margin-left:-3em;
 }
-.active{
-	color:orange;
+.navbar-inverse .navbar-nav > li.visited > a{
+	color:orange !important;
+	border-bottom:thick solid orange;
 }
 /******************** main content **************/
 .blog-post p{

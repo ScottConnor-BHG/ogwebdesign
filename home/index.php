@@ -8,10 +8,10 @@
     <link rel="shortcut icon" type="image" href="OG.png" />
 
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script src="/js/bootstrap.js"></script>
-	<script src="/js/custom.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 
 	<script type="text/javascript">
 
@@ -19,8 +19,13 @@
 </head>
 <body>
 	<header>
+	<div id="top-header">
+	</div>
+
+
+
 		<div class="navbar  navbar-inverse" role="navigation">
-	      <div class="container">
+	      <div id="small-nav" class="container">
 	        <div class="navbar-header">
 	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 	            <span class="sr-only">Toggle navigation</span>
@@ -32,21 +37,30 @@
 	        </div>
 	        <div class="collapse navbar-collapse">
 	          <ul class="nav navbar-nav nav-left">
-	            <li class="nav-link first"><a href="index.html">Home</a></li>
+	            <li class="nav-link first visited"><a href="index.html">Home</a></li>
 	            <li class="nav-link"><a href="services.html" >Services</a></li>
 	            <li class="nav-link"><a href="blog.html">Blog</a></li>
 	            <li class="nav-link"><a href="about.html">Company</a></li>
 	          </ul>
 	          <ul class="nav navbar-nav navbar-right">
-	            <li><span class="contact-info-phone pull-right">Call Us Today <a href="#">(443) 846-5909</a></span></li>
+	            <li>
+		             <span class="contact-info-phone pull-right">
+		             	<a href="#"><span class="glyphicon glyphicon-info-sign"></span>INFO</a>
+		             </span>
+	            </li>
+	            <li>
+		             <span class="info-link pull-right">
+		             	<a href="#"><span class="glyphicon glyphicon-user">   </span>SUPPORT</a>
+		             </span>
+	            </li>
 	          </ul>
 	        </div><!-- /.nav-collapse -->
 
 	      </div><!-- /.container -->
 	    </div>  
-	    <a href="http://www.ogwebdesign.com">
+<!-- 	    <a href="http://www.ogwebdesign.com">
 	      <img src="logo.png" class="img-responsive logo" alt="Responsive image">
-	    </a>
+	    </a> -->
 	</header>
 	<div class="container" id="content">
 	<div class="row">
