@@ -68,7 +68,7 @@ ul.nav.navbar-nav.navbar-right > li{
 height: 55px;
 position: relative;
 top: -5px;
-width:60px;
+width:90px;
 margin-right: 10px;
 text-transform: uppercase;
 font-family: "futura-pt-1","futura-pt-2",sans-serif;
@@ -78,6 +78,7 @@ font-family: "futura-pt-1","futura-pt-2",sans-serif;
 	color:white;
 	padding-top: 10px;
 	//margin-right:10%;
+	height:0px;
 	width:140px;
 	padding-bottom: 0;
 	margin-bottom: 0;
@@ -85,7 +86,7 @@ font-family: "futura-pt-1","futura-pt-2",sans-serif;
 span.contact-info-phone{
 	color:white;
 }
-span.contact-info-phone span{
+span.contact-info-phone i{
 	margin-right:10px;
 }
 .contact-info-phone a{
@@ -96,26 +97,7 @@ span.contact-info-phone span{
 	text-decoration: none;
 	color:orange;
 }
-.info-link{
-	font-family: "futura-pt-1","futura-pt-2",sans-serif;
-	color:white;
-	padding-top: 10px;
-	//margin-right:10%;
-	width:140px;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-.info-link a{
-	font-family: "futura-pt-1","futura-pt-2",sans-serif;
-	color:white;
-}
-.info-link a:hover{
-	text-decoration: none;
-	color:orange;
-}
-span.info-link span{
-	margin-right:10px;
-}
+
 
 .logo{
 	margin-top:-1.5em;
@@ -174,7 +156,7 @@ section a:hover{
 }
 .navbar-inverse .navbar-nav > li.visited > a{
 	color:orange !important;
-	border-bottom:thick solid orange;
+	border-bottom:thick solid orange;c
 }
 /******************** main content **************/
 .blog-post p{

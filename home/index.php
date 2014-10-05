@@ -6,7 +6,7 @@
     <meta charset="utf-8"> 		  			       	               			
     <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
     <link rel="shortcut icon" type="image" href="OG.png" />
-
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="../js/bootstrap.js"></script>
 	<script src="../js/custom.js"></script>
@@ -37,20 +37,26 @@
 	        </div>
 	        <div class="collapse navbar-collapse">
 	          <ul class="nav navbar-nav nav-left">
-	            <li class="nav-link first visited"><a href="index.html">Home</a></li>
-	            <li class="nav-link"><a href="services.html" >Services</a></li>
-	            <li class="nav-link"><a href="blog.html">Blog</a></li>
-	            <li class="nav-link"><a href="about.html">Company</a></li>
+	            <li class="nav-link first visited"><a href="../home/">Home</a></li>
+	            <li class="nav-link"><a href="../services/" >Our Services</a></li>
+	            <li class="nav-link"><a href="../company/">Company</a></li>
+	            <li class="nav-link"><a href=".../contact-us/">Contact Us</a></li>
 	          </ul>
 	          <ul class="nav navbar-nav navbar-right">
+	          	<li>
+		             <span class="contact-info-phone pull-right">
+		             	<a href="#"><i class="fa fa-rss"></i>BLOG</a>
+		             </span>
+	            </li>
+	            
 	            <li>
 		             <span class="contact-info-phone pull-right">
-		             	<a href="#"><span class="glyphicon glyphicon-info-sign"></span>INFO</a>
+		             	<a href="#"><i class="fa fa-info-circle"></i>INFO</a>
 		             </span>
 	            </li>
 	            <li>
-		             <span class="info-link pull-right">
-		             	<a href="#"><span class="glyphicon glyphicon-user">   </span>SUPPORT</a>
+		             <span class="contact-info-phone info-link pull-right">
+		             	<a href="#"><i class="fa fa-medkit"></i>SUPPORT</a>
 		             </span>
 	            </li>
 	          </ul>
