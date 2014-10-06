@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
     <link rel="shortcut icon" type="image" href="OG.png" />
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="../js/jquery-1.9.1.min.js"></script>
 	<script src="../js/bootstrap.js"></script>
 	<script src="../js/custom.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
@@ -20,6 +20,20 @@
 <body>
 	<header>
 	<div id="top-header">
+		<div class="container" id="content">
+			<div class="row">
+
+		        <div class="col-sm-4">
+		        <h1>OG Web Design</h1>
+		        </div>
+		        <div class="col-sm-4">
+		        
+		        </div>
+		       	<div class="col-sm-4">
+		
+		        </div>
+		     </div>
+		 </div>
 	</div>
 
 
@@ -36,6 +50,9 @@
 	         <!--  <a class="navbar-brand" href="#">Project name</a> -->
 	        </div>
 	        <div class="collapse navbar-collapse">
+	          <a id="nav-logo">
+	          <h1 >OG</h1>
+	          </a>
 	          <ul class="nav navbar-nav nav-left">
 	            <li class="nav-link first visited"><a href="../home/">Home</a></li>
 	            <li class="nav-link"><a href="../services/" >Our Services</a></li>
@@ -164,17 +181,17 @@
 					<tr>
 						<td>
 							<a href="http://www.linkedin.com" class="linked">
-								<img src="linkedin.png" width="42px"/> LinkedIn
+								<img src="../linkedin.png" width="42px"/> LinkedIn
 							</a>
 						</td>
 						<td>
 							<a href="http://www.facebook.com" class="facebook">
-								<img src="facebook.png" width="42px"/> Facebook
+								<img src="../facebook.png" width="42px"/> Facebook
 							</a>
 						</td>
 						<td>
 							<a href="#rss" class="rss">
-								<img src="RSS.png" width="42px"/> Subscribe
+								<img src="../RSS.png" width="42px"/> Subscribe
 							</a>
 						</td>
 					</tr>

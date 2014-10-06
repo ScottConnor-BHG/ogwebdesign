@@ -3,6 +3,54 @@
 
 }
 /******************** header **************/
+/******************** top header **************/
+
+#top-header{
+	height:180px;
+}
+body {
+background: url(../sandpaper.png);
+}
+#top-header #content{
+	margin: 0;
+	width: 100%;
+	max-height:180px;
+}
+#content > div > div.col-sm-4{
+	height:180px;
+	background:black;
+}
+/******************** nav **************/
+#nav-logo{
+width: 64px;
+height: 80px;
+background: white;
+position: absolute;
+top: -4px;
+border-radius: 0 0 10px 10px;
+left: 6px;
+color: black;
+display: none;
+font-weight: bold;
+}
+#nav-logo:hover{
+text-decoration:none;
+height:90px;
+}
+#nav-logo:hover h1{
+padding-top:10px;
+}
+#nav-logo h1{
+font-weight: bold;
+position: relative;
+top: 20px;
+}
+.sticky #nav-logo{
+	display:block !important;
+}
+.navbar-nav{
+	margin-left:30px !important;
+}
 .nav-left li{
 	//border-right:1px solid gray;
 	height: 55px;
@@ -111,13 +159,6 @@ span.contact-info-phone i{
 	//margin-top:260px;
 }
 
-/******************** header **************/
-#top-header{
-	height:180px;
-}
-body {
-background: url(http://subtlepatterns.com/patterns/sandpaper.png);
-}
 /******************** sidebar **************/
 .previous-releases-individual ul{
 	list-style: none;

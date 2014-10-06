@@ -1,7 +1,7 @@
 $(document).ready(function() {
     //code for sticky nav
     var stickyNavTop = $('.navbar').offset().top;  
-    var stickyNavTopSmall = $('#small-nav').offset().top; 
+    //var stickyNavTopSmall = $('#small-nav').offset().top; 
     var stickyNav = function(){  
     var scrollTop = $(window).scrollTop();  
            
