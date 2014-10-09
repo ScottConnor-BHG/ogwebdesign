@@ -18,7 +18,7 @@ background: url(../sandpaper.png);
 }
 #content > div > div.col-sm-4{
 	height:180px;
-	background:black;
+	//background:black;
 }
 /******************** nav **************/
 #nav-logo{
@@ -37,11 +37,10 @@ font-weight: bold;
 text-decoration:none;
 height:90px;
 }
-#nav-logo:hover h1{
+#nav-logo:hover img{
 padding-top:10px;
 }
-#nav-logo h1{
-font-weight: bold;
+#nav-logo img{
 position: relative;
 top: 20px;
 }
@@ -229,6 +228,19 @@ section a:hover{
 }
 .footer .comment{
 	margin-left:15px;
+}
+#contact{
+	width:300px;
+}
+#contact-label{
+	width:300px;
+}
+textarea.form-control,input.form-control{
+	width:300px;
+}
+#quick-contact-form > div:nth-child(5) > div > button {
+position: relative;
+//left: 60px;
 }
 .footer .label-padded{
 	padding-right:100px;

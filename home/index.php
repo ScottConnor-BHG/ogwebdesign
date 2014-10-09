@@ -5,7 +5,7 @@
 	<title>Responsive Web Services | OG Web Design</title>
     <meta charset="utf-8"> 		  			       	               			
     <meta content="width=device-width, initial-scale=1.0" name="viewport"> 
-    <link rel="shortcut icon" type="image" href="OG.png" />
+    <link rel="shortcut icon" type="image" href="../guru.png" />
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="../js/jquery-1.9.1.min.js"></script>
 	<script src="../js/bootstrap.js"></script>
@@ -24,14 +24,15 @@
 			<div class="row">
 
 		        <div class="col-sm-4">
-		        <h1>OG Web Design</h1>
+		        <img src="../guru_main.png"/>
 		        </div>
-		        <div class="col-sm-4">
-		        
+		        <div >
+		        <h1 id="main-headline">
+
+		        <!-- Original Guru strives to build engaging and responsive websites that look good on any device, captivate your target audience and portray professionalism. -->
+		       	</h1>
 		        </div>
-		       	<div class="col-sm-4">
-		
-		        </div>
+
 		     </div>
 		 </div>
 	</div>
@@ -50,8 +51,9 @@
 	         <!--  <a class="navbar-brand" href="#">Project name</a> -->
 	        </div>
 	        <div class="collapse navbar-collapse">
-	          <a id="nav-logo">
-	          <h1 >OG</h1>
+
+	          <a id="nav-logo" href="../home/">
+	          <img src="../guru_thumb.png"/>
 	          </a>
 	          <ul class="nav navbar-nav nav-left">
 	            <li class="nav-link first visited"><a href="../home/">Home</a></li>
@@ -200,7 +202,7 @@
 		  </div><!-- /.col -->
 		  <div class="col-md-4">
 		  <h3>Contact Sales</h3>
-			<p>Please fill out the form below and a sales representative will contact you.</p>
+			<p id="contact-label">Please fill out the form below and a sales representative will contact you.</p>
 				 <div class="alert alert-danger" id="error">
 			      <h4>Error:</h4>
 			      <div class="error-msg" id="error-msg">
@@ -209,39 +211,41 @@
 				 <div class="alert alert-success" id="success">
 			      <h4>Message Sent Successfully!</h4>
 			     </div>
-			<form class="form-horizontal" method="post" id="quick-contact-form">
-			  <div class="form-group">
-			    <label for="inputName" class="col-sm-4 control-label label-padded">Name</label>
-			    <div class="col-sm-8">
-			      <input type="name" class="form-control" id="name" placeholder="Full Name">
-			    </div>
-			  </div>
-			  <div class="form-group">
-			    <label for="inputPhone" class="col-sm-4 control-label label-padded">Phone</label>
-			    <div class="col-sm-8">
-			      <input type="phone" class="form-control" id="phone" placeholder="Phone">
-			    </div>
-			  </div>		
-			  <div class="form-group">
-			    <label for="inputEmail" class="col-sm-4 control-label label-padded">Email</label>
-			    <div class="col-sm-8">
-			      <input type="email" class="form-control" id="email" placeholder="Email">
-			    </div>
-			  </div>
+			<div id="contact">
+				<form class="form-horizontal" method="post" id="quick-contact-form">
+				  <div class="form-group">
+				    <!-- <label for="inputName" class="col-sm-4 control-label label-padded">Name</label> -->
+				    <div class="col-sm-8">
+				      <input type="name" class="form-control" id="name" placeholder="Full Name" required>
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <!-- <label for="inputPhone" class="col-sm-4 control-label label-padded">Phone</label> -->
+				    <div class="col-sm-8">
+				      <input type="phone" class="form-control" id="phone" placeholder="Phone" required>
+				    </div>
+				  </div>		
+				  <div class="form-group">
+				    <!-- <label for="inputEmail" class="col-sm-4 control-label label-padded">Email</label> -->
+				    <div class="col-sm-8">
+				      <input type="email" class="form-control" id="email" placeholder="Email" required>
+				    </div>
+				  </div>
 
-			  <div class="form-group">
-			    <label for="inputComments" class="control-label comment">Comments</label>
-			    <div class="col-sm-12">
-			      <textarea class="form-control" rows="3" id="comment"></textarea>
-			    </div>
-			  </div>	
+				  <div class="form-group">
+				    <!-- <label for="inputComments" class="control-label comment">Comments</label> -->
+				    <div class="col-sm-12">
+				      <textarea class="form-control" rows="3" id="comment" placeholder="Comments"></textarea>
+				    </div>
+				  </div>	
 
-			  <div class="form-group">
-			    <div class="col-sm-offset-2 col-sm-10">
-			      <button type="submit" class="btn btn-default btn-sm pull-right active">Sign in</button>
-			    </div>
-			  </div>
-			</form>
+				  <div class="form-group">
+				    <div class="col-sm-offset-2 col-sm-10">
+				      <button type="submit" class="btn btn-default btn-sm pull-right active">Sign in</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
 		  </div><!-- /.col -->
 		</div><!-- /.row -->
       </div><!-- /.container -->

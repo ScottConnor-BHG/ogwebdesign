@@ -1,7 +1,7 @@
 $(document).ready(function() {
     //code for sticky nav
     var stickyNavTop = $('.navbar').offset().top;  
-    //var stickyNavTopSmall = $('#small-nav').offset().top; 
+    var stickyNavTopSmall = $('#small-nav').offset().top; 
     var stickyNav = function(){  
     var scrollTop = $(window).scrollTop();  
            
@@ -78,7 +78,7 @@ $(document).ready(function() {
         });
         
         document.getElementById('success').style.display="none";
-        document.getElementById('error').style.display="block";        
+        document.getElementById('error').style.display="block";     
       }else
       {
         document.getElementById('error').style.display="none";
@@ -87,6 +87,11 @@ $(document).ready(function() {
         document.getElementById('phone').value='';
         document.getElementById('email').value='';
         document.getElementById('comment').value='';
+        
+        setTimeout(function() {
+              // Do something after 5 seconds
+              document.getElementById('success').style.display="none";
+        }, 2000);
       }
 
   });
