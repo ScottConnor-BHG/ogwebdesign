@@ -22,16 +22,16 @@
 	<div id="top-header">
 		<div class="container" id="content">
 			<div class="row">
-
-		        <div class="col-sm-4">
-		        <img src="../guru_main.png"/>
-		        </div>
-		        <div >
 		        <h1 id="main-headline">
-
+		        Original Guru Web Design
 		        <!-- Original Guru strives to build engaging and responsive websites that look good on any device, captivate your target audience and portray professionalism. -->
 		       	</h1>
+		   	
+		        <!-- <img src="../guru_main.png"/> -->
 		        </div>
+		       
+
+		        
 
 		     </div>
 		 </div>

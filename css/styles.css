@@ -6,7 +6,8 @@
 /******************** top header **************/
 
 #top-header{
-	height:180px;
+	background-color:white;
+	//height:180px;
 }
 body {
 background: url(../sandpaper.png);
@@ -14,7 +15,7 @@ background: url(../sandpaper.png);
 #top-header #content{
 	margin: 0;
 	width: 100%;
-	max-height:180px;
+	//max-height:180px;
 }
 #content > div > div.col-sm-4{
 	height:180px;
